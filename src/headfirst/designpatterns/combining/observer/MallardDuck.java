@@ -1,5 +1,8 @@
 package headfirst.designpatterns.combining.observer;
 
+/**
+ * Mallar
+ */
 public class MallardDuck implements Quackable {
 	Observable observable;
  
@@ -24,3 +27,4 @@ public class MallardDuck implements Quackable {
 		return "Mallard Duck";
 	}
 }
+
