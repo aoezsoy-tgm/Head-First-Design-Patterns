@@ -43,7 +43,6 @@ public class QuackCounter implements Quackable {
 	 *  In dieser Methode wird die Methode registerObserver mit dem Parameter observer aufgerufen. 
 	 *  Die Methode registerOberserver befindet sich in observable.
 	 */
-	 */
 	public void registerObserver(Observer observer) {
 		duck.registerObserver(observer);
 	}
