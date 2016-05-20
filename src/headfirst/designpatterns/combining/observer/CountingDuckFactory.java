@@ -19,7 +19,7 @@ public class CountingDuckFactory extends AbstractDuckFactory {
   
 	/**
 	 * Diese Methode ruft zuerst die QuackCounter-Klasse auf und dann wird
-	 * in diesem eine neue MallardDuck-Klasse instanziiert.
+	 * in diesem eine neue MallardDuck-Klasse instanziiert und als Quackable zurück gegegben.
 	 */
 	public Quackable createMallardDuck() {
 		return new QuackCounter(new MallardDuck());
@@ -27,7 +27,7 @@ public class CountingDuckFactory extends AbstractDuckFactory {
   
 	/**
 	 * Diese Methode ruft zuerst die QuackCounter-Klasse auf und dann wird
-	 * in diesem eine neue RedheadDuck-Klasse instanziiert.
+	 * in diesem eine neue RedheadDuck-Klasse instanziiert und als Quackable zurück gegegben.
 	 */
 	public Quackable createRedheadDuck() {
 		return new QuackCounter(new RedheadDuck());
@@ -35,7 +35,7 @@ public class CountingDuckFactory extends AbstractDuckFactory {
   
 	/**
 	 * Diese Methode ruft zuerst die QuackCounter-Klasse auf und dann wird
-	 * in diesem eine neue Duck-Klasse instanziiert.
+	 * in diesem eine neue Duck-Klasse instanziiert und als Quackable zurück gegegben.
 	 */
 	public Quackable createDuckCall() {
 		return new QuackCounter(new DuckCall());
@@ -43,7 +43,7 @@ public class CountingDuckFactory extends AbstractDuckFactory {
    
 	/**
 	 * Diese Methode ruft zuerst die QuackCounter-Klasse auf und dann wird
-	 * in diesem eine neue RubberDuck-Klasse instanziiert.
+	 * in diesem eine neue RubberDuck-Klasse instanziiert und als Quackable zurück gegegben.
 	 */
 	public Quackable createRubberDuck() {
 		return new QuackCounter(new RubberDuck());
